@@ -56,11 +56,11 @@ for info in less_dir.infolist():
 
 setup(
     name='virtual-less',
-    version='0.0.2',
+    version='0.0.3',
     description='Install lessc into your virtualenv',
-    author='Sebastian Vetter',
-    author_email='sebastian@roadside-developer.com',
-    url='http://github.com/elbaschid/virtual-less',
+    author='Sebastian Vetter (original), Tyler Nieman (this branch)',
+    author_email='sebastian@roadside-developer.com (original), tyler@vho.to (this branch)',
+    url='https://github.com/vhoto-dev/virtual-less/',
     long_description="%s\n\n%s" % (open('README.rst').read(),
                                    open('CHANGELOG.rst').read()),
     classifiers=[
