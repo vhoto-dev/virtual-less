@@ -10,7 +10,7 @@ from setuptools import setup
 from cStringIO import StringIO
 
 BASE_URL = "https://github.com/cloudhead/less.js"
-DEFAULT_VERSION = '1.6.2'
+DEFAULT_VERSION = '1.6.3'
 PROJECT_DIR = os.environ.get('PROJECT_DIR')
 
 
@@ -56,7 +56,7 @@ for info in less_dir.infolist():
 
 setup(
     name='virtual-less',
-    version='0.0.3',
+    version='0.0.4',
     description='Install lessc into your virtualenv',
     author='Sebastian Vetter (original), Tyler Nieman (this branch)',
     author_email='sebastian@roadside-developer.com (original), tyler@vho.to (this branch)',
